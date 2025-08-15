@@ -1,0 +1,27 @@
+{
+  "name": "whatsapp-bot-baileys",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp menggunakan Baileys untuk Termux",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node bot.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "termux",
+    "nodejs"
+  ],
+  "author": "Alizz",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "@hapi/boom": "^10.0.1",
+    "pino": "^8.19.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
